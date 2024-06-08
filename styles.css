@@ -604,7 +604,7 @@ button:hover {
 @media (max-width: 768px) {
   #skills {
     position: relative;
-    margin-top:50rem ;
+    margin-top:300vh ;
   }
 }
 @media screen and (max-width: 768px) {
@@ -612,6 +612,12 @@ button:hover {
   .container1 {
     width: 100%;
     padding: 20px; /* Add padding for better spacing */
+  }
+}
+/* Media Query for Small Screens (Phones) */
+@media (max-width: 768px) {
+  #LetsConnect {
+    margin-top: 280vh; /* Adjusted margin-top for phones */
   }
 }
 
