@@ -187,36 +187,7 @@ p{
 }
 
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-  .intro {
-    font-size: 2rem; /* Adjust font size for medium screens */
-  }
 
-  .two {
-    font-size: 1rem; /* Adjust font size for medium screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .intro {
-    font-size: 1.5rem; /* Adjust font size for small screens */
-  }
-
-  .two {
-    font-size: 0.9rem; /* Adjust font size for small screens */
-  }
-
-  .about-container {
-    width: 90%;
-    display:blocks;
-     /* Adjust container width for small screens */
-  }
-
-  .about {
-    height: 70vh; /* Adjust container height for small screens */
-  }
-}
 
 #Skills {
   position: absolute;
@@ -237,12 +208,7 @@ p{
 
   
 }
-@media (max-width: 768px) {
-  #skills {
-    position: relative;
-    margin-top:50rem ;
-  }
-}
+
 .container1{
   align-items: center;
   width: 45%;
@@ -361,13 +327,6 @@ p{
   animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 
-}
-@media screen and (max-width: 768px) {
-  /* Adjust the container width */
-  .container1 {
-    width: 100%;
-    padding: 20px; /* Add padding for better spacing */
-  }
 }
 @keyframes showText{
   100%{
@@ -612,5 +571,49 @@ button:hover {
 .trump {
   color: #000;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .intro {
+    font-size: 2rem; /* Adjust font size for medium screens */
+  }
+
+  .two {
+    font-size: 1rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 1.5rem; /* Adjust font size for small screens */
+  }
+
+  .two {
+    font-size: 0.9rem; /* Adjust font size for small screens */
+  }
+
+  .about-container {
+    width: 90%;
+    display:blocks;
+     /* Adjust container width for small screens */
+  }
+
+  .about {
+    height: 70vh; /* Adjust container height for small screens */
+  }
+}
+@media (max-width: 768px) {
+  #skills {
+    position: relative;
+    margin-top:50rem ;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Adjust the container width */
+  .container1 {
+    width: 100%;
+    padding: 20px; /* Add padding for better spacing */
+  }
+}
+
 
 
