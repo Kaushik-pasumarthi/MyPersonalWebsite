@@ -237,9 +237,13 @@
 
     
   }
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
     .stuffing {
-      margin-top:350vh ;
+      margin-top:250vh ;
+    }
+  }@media (max-width: 1200px) {
+    .stuffing {
+      margin-top:250vh ;
     }
   }
   .container1{
