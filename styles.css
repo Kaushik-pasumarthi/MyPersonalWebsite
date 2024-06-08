@@ -163,11 +163,7 @@
     background-color: rgb(248, 245, 241);
 
   }
-  @media (max-width: 768px) {
-    .about {
-      margin-bottom:250vh ;
-    }
-  }
+
 
   .about-container {
     display:inline-flex;
@@ -192,36 +188,7 @@
   }
 
 
-  /* Media Queries for Responsiveness */
-  @media (max-width: 1200px) {
-    .intro {
-      font-size: 2rem; /* Adjust font size for medium screens */
-    }
-
-    .two {
-      font-size: 1rem; /* Adjust font size for medium screens */
-    }
-  }
-
-  @media (max-width: 768px) {
-    .intro {
-      font-size: 1.5rem; /* Adjust font size for small screens */
-    }
-
-    .two {
-      font-size: 0.9rem; /* Adjust font size for small screens */
-    }
-
-    .about-container {
-      width: 90%;
-      display:blocks;
-      /* Adjust container width for small screens */
-    }
-
-    .about {
-      height: 70vh; /* Adjust container height for small screens */
-    }
-  }
+  
 
   #Skills {
     position: absolute;
