@@ -190,7 +190,7 @@
     @media screen and (max-width: 768px) {
       /* Adjust the container width */
       .about{
-        margin-top:75vh ;
+        margin-top:45vh ;
         width: 100%;
         padding: 20px; /* Add padding for better spacing */
       }
