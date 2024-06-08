@@ -620,6 +620,19 @@ button:hover {
     margin-top: 280vh; /* Adjusted margin-top for phones */
   }
 }
+@media (max-width: 768px) {
+  .about {
+    margin-top: 320vh; /* Adjusted margin-top for phones */
+  }
+
+  .intro {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+
+  .two {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+}
 
 
 
