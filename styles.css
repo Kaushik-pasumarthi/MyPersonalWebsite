@@ -607,6 +607,6 @@ button:hover {
 /* Media Query for Small Screens (Phones) */
 @media (max-width: 768px) {
   #LetsConnect {
-    margin-top: 280vh; /* Adjusted margin-top for phones */
+    margin-top: 256vh; /* Adjusted margin-top for phones */
   }
 }
