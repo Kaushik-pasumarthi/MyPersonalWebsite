@@ -191,7 +191,8 @@ p{
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
   .intro {
-    font-size: 2rem; /* Adjust font size for medium screens */
+    font-size: 2rem;
+    margin-top: -9vh; /* Adjust font size for medium screens */
   }
 
   .two {
@@ -210,10 +211,11 @@ p{
 
   .about-container {
     width: 90%; /* Adjust container width for small screens */
+    display: block;
   }
 
   .about {
-    height: 70vh; /* Adjust container height for small screens */
+    height: 60vh; /* Adjust container height for small screens */
   }
 }
 
@@ -232,19 +234,11 @@ p{
   border: 5px solid #0ef;
   box-sizing: border-box;
   background-color: #202034; /* Changed from rgb(248, 245, 241) to #000 for consistency */
-  margin-top: 165.5vh;
+  margin: 157.5vh 0 50vh;
 
   
 }
-@media (max-width: 768px) {
-  #skills {
-    font-size: 2rem; /* Adjust font size for medium screens */
-  }
 
-  .two {
-    font-size: 1rem; /* Adjust font size for medium screens */
-  }
-}
 .container1{
   align-items: center;
   width: 45%;
@@ -574,7 +568,7 @@ p{
   border: 5px solid #0ef; 
   box-sizing: border-box;
   padding: 80px 20px; /* Combined padding for top/bottom and left/right */
-  margin: 246vh 0 50vh; /* Combined margin-top and margin-bottom */
+  margin: 220vh 0 50vh; /* Combined margin-top and margin-bottom */
 }
 
 .connect-container {
@@ -588,16 +582,17 @@ p{
 
 .connect-container p {
   color: #000;
+  font-size: 1rem;
 }
 
 .interaction {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 button {
   padding-bottom: 20px;
   padding-left: 10px ;
-  font-size: 18px;
+  font-size: 26px;
   border: solid 2px #0ef; /* Added border width */
   border-radius: 40px;
   background-color: rgb(0, 0, 0);
@@ -618,6 +613,16 @@ button:hover {
 /* Media Query for Small Screens (Phones) */
 @media (max-width: 768px) {
   #LetsConnect {
-    margin-top: 280vh; /* Adjusted margin-top for phones */
+    margin-top: 309vh; /* Adjusted margin-top for phones */
   }
+  #Skills{
+    margin-top: 197.5vh;
+  }
+  .video-background{
+    transform: translate(-50%, -50%) scale(1.75);
+  }
+  .text-block-4 {
+    font-size: 5rem;
+  }
+
 }
