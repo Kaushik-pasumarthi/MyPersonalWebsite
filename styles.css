@@ -192,6 +192,7 @@ p{
 
 @media (max-width: 768px) {
   .intro {
+          margin-top: -8.5vh;
     font-size: 1.5rem; /* Adjust font size for small screens */
   }
 
