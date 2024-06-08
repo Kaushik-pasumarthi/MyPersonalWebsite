@@ -613,9 +613,4 @@ button:hover {
   color: #000;
 }
 
-/* Media Query for Small Screens (Phones) */
-@media (max-width: 768px) {
-  #LetsConnect {
-    margin-top: 280vh; /* Adjusted margin-top for phones */
-  }
-}
+
