@@ -1,4 +1,4 @@
- *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -195,15 +195,16 @@ p{
   flex-wrap: wrap;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  height: 80vh; /* Set height as needed */
+  height: 100vh; /* Set height as needed */
   width: 95%;
   border-radius: 10px;
   border: 5px solid #0ef;
   box-sizing: border-box;
   padding: 20px;
+  padding-top: 10vh;
   padding-bottom: 80vh;
   background-color: #202034; /* Changed from rgb(248, 245, 241) to #000 for consistency */
-  margin-top: 165.5vh;
+  margin-top: 175.5vh;
 
   
 }
@@ -537,7 +538,7 @@ p{
   border: 5px solid #0ef; 
   box-sizing: border-box;
   padding: 20px;
-  margin-top: 235vh;
+  margin-top: 256vh;
   margin-bottom: 50vh;
 }
 .connect-container h2{
@@ -581,4 +582,3 @@ button:hover {
 .trump{
   color: #000;
 }
-
