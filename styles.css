@@ -209,15 +209,6 @@
 
     
   }
-  @media (max-width: 768px) {
-    .stuffing {
-      margin-top:250vh ;
-    }
-  }@media (max-width: 1200px) {
-    .stuffing {
-      margin-top:250vh ;
-    }
-  }
 
   .container1{
     align-items: center;
@@ -338,7 +329,14 @@
     opacity: 0;
 
   }
-
+  @media screen and (max-width: 768px) {
+    /* Adjust the container width */
+    .container1 {
+      width: 100%;
+      padding: 20px;
+      margin: 200px; /* Add padding for better spacing */
+    }
+  }
   @keyframes showText{
     100%{
       opacity: 1;
