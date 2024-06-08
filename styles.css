@@ -188,17 +188,7 @@ p{
 }
 
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-  .intro {
-    font-size: 2rem;
-    margin-top: -9vh; /* Adjust font size for medium screens */
-  }
 
-  .two {
-    font-size: 1rem; /* Adjust font size for medium screens */
-  }
-}
 
 @media (max-width: 768px) {
   .intro {
@@ -234,9 +224,7 @@ p{
   border: 5px solid #0ef;
   box-sizing: border-box;
   background-color: #202034; /* Changed from rgb(248, 245, 241) to #000 for consistency */
-  margin: 157.5vh 0 50vh;
-
-  
+  margin-top: 162.5vh;
 }
 
 .container1{
@@ -568,7 +556,7 @@ p{
   border: 5px solid #0ef; 
   box-sizing: border-box;
   padding: 80px 20px; /* Combined padding for top/bottom and left/right */
-  margin: 220vh 0 50vh; /* Combined margin-top and margin-bottom */
+  margin-top: 236.5vh;
 }
 
 .connect-container {
