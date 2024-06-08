@@ -334,7 +334,7 @@
     .container1 {
       width: 100%;
       padding: 20px;
-      margin: 200px; /* Add padding for better spacing */
+      margin-top: 200px; /* Add padding for better spacing */
     }
   }
   @keyframes showText{
